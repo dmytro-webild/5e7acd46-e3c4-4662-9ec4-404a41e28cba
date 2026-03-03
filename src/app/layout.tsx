@@ -6,42 +6,26 @@ import { ServiceWrapper } from "@/components/ServiceWrapper";
 import Tag from "@/tag/Tag";
 
 const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
+  variable: "--font-inter",  subsets: ["latin"],
 });
 
 const openSans = Open_Sans({
-  variable: "--font-open-sans",
-  subsets: ["latin"],
+  variable: "--font-open-sans",  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
-  title: "StyleAI | AI-Powered Barber & Salon Marketplace",
-  description: "Discover your perfect style instantly with AI virtual try-on. Find trusted local stylists, book appointments, and purchase premium hair care products.",
-  keywords: "barber, salon, haircut, styling, virtual try-on, AI, appointments",
-  metadataBase: new URL("https://styleai.com"),
+  title: "StyleAI | AI-Powered Barber & Salon Marketplace",  description: "Discover your perfect style instantly with AI virtual try-on. Find trusted local stylists, book appointments, and purchase premium hair care products.",  keywords: "barber, salon, haircut, styling, virtual try-on, AI, appointments",  metadataBase: new URL("https://styleai.com"),
   alternates: {
-    canonical: "https://styleai.com",
-  },
+    canonical: "https://styleai.com"},
   openGraph: {
-    title: "StyleAI | Find Your Perfect Style",
-    description: "AI-powered virtual try-on meets trusted local stylists. Book your transformation today.",
-    siteName: "StyleAI",
-    type: "website",
-    images: [
+    title: "StyleAI | Find Your Perfect Style",    description: "AI-powered virtual try-on meets trusted local stylists. Book your transformation today.",    siteName: "StyleAI",    type: "website",    images: [
       {
-        url: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-vibrant-modern-barber-shop-interior-wi-1772539353772-b879aa25.png",
-        alt: "StyleAI - AI-Powered Salon Marketplace",
-      },
+        url: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-vibrant-modern-barber-shop-interior-wi-1772539353772-b879aa25.png",        alt: "StyleAI - AI-Powered Salon Marketplace"},
     ],
   },
   twitter: {
-    card: "summary_large_image",
-    title: "StyleAI | Find Your Perfect Style",
-    description: "AI-powered virtual try-on meets trusted local stylists",
-    images: [
-      "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-vibrant-modern-barber-shop-interior-wi-1772539353772-b879aa25.png",
-    ],
+    card: "summary_large_image",    title: "StyleAI | Find Your Perfect Style",    description: "AI-powered virtual try-on meets trusted local stylists",    images: [
+      "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-vibrant-modern-barber-shop-interior-wi-1772539353772-b879aa25.png"],
   },
   robots: {
     index: true,

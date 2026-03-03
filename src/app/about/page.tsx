@@ -57,37 +57,18 @@ export default function AboutPage() {
           tagIcon={MapPin}
           team={[
             {
-              id: "1",
-              name: "Marcus Johnson",
-              role: "Master Barber",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-confident-s-1772539353003-d526f3c7.png?_wi=3",
-              imageAlt: "Marcus Johnson - Master Barber",
-            },
+              id: "1",              name: "Marcus Johnson",              role: "Master Barber",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-confident-s-1772539353003-d526f3c7.png",              imageAlt: "Marcus Johnson - Master Barber"},
             {
-              id: "2",
-              name: "Aisha Williams",
-              role: "Senior Stylist",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-talented-ex-1772539352872-9b95b827.png?_wi=3",
-              imageAlt: "Aisha Williams - Senior Stylist",
-            },
+              id: "2",              name: "Aisha Williams",              role: "Senior Stylist",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-talented-ex-1772539352872-9b95b827.png",              imageAlt: "Aisha Williams - Senior Stylist"},
             {
-              id: "3",
-              name: "James Chen",
-              role: "Precision Barber",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-confident-s-1772539353003-d526f3c7.png?_wi=4",
-              imageAlt: "James Chen - Precision Barber",
-            },
+              id: "3",              name: "James Chen",              role: "Precision Barber",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-confident-s-1772539353003-d526f3c7.png",              imageAlt: "James Chen - Precision Barber"},
             {
-              id: "4",
-              name: "Sophia Martinez",
-              role: "Color Specialist",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-talented-ex-1772539352872-9b95b827.png?_wi=4",
-              imageAlt: "Sophia Martinez - Color Specialist",
-            },
+              id: "4",              name: "Sophia Martinez",              role: "Color Specialist",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-talented-ex-1772539352872-9b95b827.png",              imageAlt: "Sophia Martinez - Color Specialist"},
           ]}
           animationType="slide-up"
           textboxLayout="default"
           useInvertedBackground={true}
+          tagAnimation="slide-up"
         />
       </div>
 
@@ -100,28 +81,13 @@ export default function AboutPage() {
           tagIcon={MessageCircle}
           testimonials={[
             {
-              id: "1",
-              name: "Trust & Transparency",
-              handle: "@trust",
-              testimonial: "We believe in verified professionals and honest reviews. Every stylist on our platform is thoroughly vetted to ensure the best experience for our users.",
-              rating: 5,
-              icon: MessageCircle,
+              id: "1",              name: "Trust & Transparency",              handle: "@trust",              testimonial: "We believe in verified professionals and honest reviews. Every stylist on our platform is thoroughly vetted to ensure the best experience for our users.",              rating: 5,
             },
             {
-              id: "2",
-              name: "Innovation & Technology",
-              handle: "@innovation",
-              testimonial: "AI-powered virtual try-ons and smart matching algorithms help users find their perfect style with confidence and precision.",
-              rating: 5,
-              icon: MessageCircle,
+              id: "2",              name: "Innovation & Technology",              handle: "@innovation",              testimonial: "AI-powered virtual try-ons and smart matching algorithms help users find their perfect style with confidence and precision.",              rating: 5,
             },
             {
-              id: "3",
-              name: "Inclusivity & Safety",
-              handle: "@inclusivity",
-              testimonial: "Our gender-specific interfaces ensure personalized, safe experiences. We celebrate diversity and create spaces where everyone feels welcome.",
-              rating: 5,
-              icon: MessageCircle,
+              id: "3",              name: "Inclusivity & Safety",              handle: "@inclusivity",              testimonial: "Our gender-specific interfaces ensure personalized, safe experiences. We celebrate diversity and create spaces where everyone feels welcome.",              rating: 5,
             },
           ]}
           showRating={true}
