@@ -57,13 +57,13 @@ export default function AboutPage() {
           tagIcon={MapPin}
           team={[
             {
-              id: "1",              name: "Marcus Johnson",              role: "Master Barber",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-confident-s-1772539353003-d526f3c7.png",              imageAlt: "Marcus Johnson - Master Barber"},
+              id: "1",              name: "Marcus Johnson",              role: "Master Barber",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-confident-s-1772539353003-d526f3c7.png?_wi=3",              imageAlt: "Marcus Johnson - Master Barber"},
             {
-              id: "2",              name: "Aisha Williams",              role: "Senior Stylist",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-talented-ex-1772539352872-9b95b827.png",              imageAlt: "Aisha Williams - Senior Stylist"},
+              id: "2",              name: "Aisha Williams",              role: "Senior Stylist",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-talented-ex-1772539352872-9b95b827.png?_wi=3",              imageAlt: "Aisha Williams - Senior Stylist"},
             {
-              id: "3",              name: "James Chen",              role: "Precision Barber",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-confident-s-1772539353003-d526f3c7.png",              imageAlt: "James Chen - Precision Barber"},
+              id: "3",              name: "James Chen",              role: "Precision Barber",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-confident-s-1772539353003-d526f3c7.png?_wi=4",              imageAlt: "James Chen - Precision Barber"},
             {
-              id: "4",              name: "Sophia Martinez",              role: "Color Specialist",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-talented-ex-1772539352872-9b95b827.png",              imageAlt: "Sophia Martinez - Color Specialist"},
+              id: "4",              name: "Sophia Martinez",              role: "Color Specialist",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-talented-ex-1772539352872-9b95b827.png?_wi=4",              imageAlt: "Sophia Martinez - Color Specialist"},
           ]}
           animationType="slide-up"
           textboxLayout="default"
