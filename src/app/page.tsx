@@ -101,6 +101,7 @@ export default function HomePage() {
           description="Four simple steps to discover, try, book, and transform your look with confidence"
           tag="Process"
           tagIcon={Zap}
+          buttons={[{ text: "Start Booking Now", href: "/appointment" }]}
           features={[
             {
               id: "1",              title: "Upload Your Photo",              description: "Take a selfie or upload a photo. Our AI analyzes your facial structure and features to find your perfect match.",              media: {
