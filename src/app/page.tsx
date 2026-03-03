@@ -51,7 +51,7 @@ export default function HomePage() {
             { text: "Try Your New Look", href: "/appointment" },
             { text: "Find Stylists", href: "/stylists" },
           ]}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-vibrant-modern-barber-shop-interior-wi-1772539353772-b879aa25.png"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-vibrant-modern-barber-shop-interior-wi-1772539353772-b879aa25.png?_wi=1"
           imageAlt="Modern premium salon interior"
           showDimOverlay={true}
           buttonAnimation="slide-up"
@@ -79,13 +79,13 @@ export default function HomePage() {
           tagIcon={MapPin}
           team={[
             {
-              id: "1",              name: "Marcus Johnson",              role: "Master Barber",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-confident-s-1772539353003-d526f3c7.png",              imageAlt: "Marcus Johnson - Master Barber"},
+              id: "1",              name: "Marcus Johnson",              role: "Master Barber",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-confident-s-1772539353003-d526f3c7.png?_wi=1",              imageAlt: "Marcus Johnson - Master Barber"},
             {
-              id: "2",              name: "Aisha Williams",              role: "Senior Stylist",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-talented-ex-1772539352872-9b95b827.png",              imageAlt: "Aisha Williams - Senior Stylist"},
+              id: "2",              name: "Aisha Williams",              role: "Senior Stylist",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-talented-ex-1772539352872-9b95b827.png?_wi=1",              imageAlt: "Aisha Williams - Senior Stylist"},
             {
-              id: "3",              name: "James Chen",              role: "Precision Barber",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-confident-s-1772539353003-d526f3c7.png",              imageAlt: "James Chen - Precision Barber"},
+              id: "3",              name: "James Chen",              role: "Precision Barber",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-confident-s-1772539353003-d526f3c7.png?_wi=2",              imageAlt: "James Chen - Precision Barber"},
             {
-              id: "4",              name: "Sophia Martinez",              role: "Color Specialist",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-talented-ex-1772539352872-9b95b827.png",              imageAlt: "Sophia Martinez - Color Specialist"},
+              id: "4",              name: "Sophia Martinez",              role: "Color Specialist",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-talented-ex-1772539352872-9b95b827.png?_wi=2",              imageAlt: "Sophia Martinez - Color Specialist"},
           ]}
           animationType="slide-up"
           textboxLayout="default"
@@ -134,7 +134,7 @@ export default function HomePage() {
             },
             {
               id: "4",              title: "Confirm & Get Styled",              description: "Book your appointment instantly. Track your stylist, receive reminders, and enjoy your transformation with confidence.",              media: {
-                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-modern-appointment-booking-calendar-in-1772539354163-6fa220b1.png",                imageAlt: "Booking calendar interface"},
+                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-modern-appointment-booking-calendar-in-1772539354163-6fa220b1.png?_wi=1",                imageAlt: "Booking calendar interface"},
               items: [
                 { icon: Check, text: "Instant confirmation" },
                 { icon: Check, text: "Real-time updates" },
@@ -160,22 +160,22 @@ export default function HomePage() {
           blogs={[
             {
               id: "1",              category: ["Men's Cuts", "Barber"],
-              title: "Perfect Fade Tutorial",              excerpt: "Watch Marcus execute a flawless high fade with precision and expertise. This classic look works for any occasion.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-vertical-video-thumbnail-for-a-barber--1772539354410-a19dbc62.png",              imageAlt: "Barber performing fade cut",              authorName: "Marcus Johnson",              authorAvatar: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-confident-s-1772539353003-d526f3c7.png",              date: "3 days ago"},
+              title: "Perfect Fade Tutorial",              excerpt: "Watch Marcus execute a flawless high fade with precision and expertise. This classic look works for any occasion.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-vertical-video-thumbnail-for-a-barber--1772539354410-a19dbc62.png?_wi=1",              imageAlt: "Barber performing fade cut",              authorName: "Marcus Johnson",              authorAvatar: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-confident-s-1772539353003-d526f3c7.png",              date: "3 days ago"},
             {
               id: "2",              category: ["Women's Hair", "Color"],
-              title: "Ombre Blonde Transformation",              excerpt: "Aisha transforms thick, dark hair into a stunning ombre blonde. See the complete coloring process and styling tips.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-before-and-after-transfor-1772539353929-5b477765.png",              imageAlt: "Women's hair ombre transformation",              authorName: "Aisha Williams",              authorAvatar: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-talented-ex-1772539352872-9b95b827.png",              date: "5 days ago"},
+              title: "Ombre Blonde Transformation",              excerpt: "Aisha transforms thick, dark hair into a stunning ombre blonde. See the complete coloring process and styling tips.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-before-and-after-transfor-1772539353929-5b477765.png?_wi=1",              imageAlt: "Women's hair ombre transformation",              authorName: "Aisha Williams",              authorAvatar: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-talented-ex-1772539352872-9b95b827.png",              date: "5 days ago"},
             {
               id: "3",              category: ["Men's Cuts", "Styling"],
-              title: "Modern Textured Crop",              excerpt: "James creates a trendy textured crop with detailed techniques. Perfect for the style-conscious man looking for versatility.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-vertical-video-thumbnail-for-a-barber--1772539354410-a19dbc62.png",              imageAlt: "Modern textured haircut for men",              authorName: "James Chen",              authorAvatar: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-confident-s-1772539353003-d526f3c7.png",              date: "1 week ago"},
+              title: "Modern Textured Crop",              excerpt: "James creates a trendy textured crop with detailed techniques. Perfect for the style-conscious man looking for versatility.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-vertical-video-thumbnail-for-a-barber--1772539354410-a19dbc62.png?_wi=2",              imageAlt: "Modern textured haircut for men",              authorName: "James Chen",              authorAvatar: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-confident-s-1772539353003-d526f3c7.png",              date: "1 week ago"},
             {
               id: "4",              category: ["Women's Hair", "Styling"],
-              title: "Volume & Texture Tips",              excerpt: "Sophia shares her favorite techniques for creating bounce and movement in any hair type. Includes product recommendations.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-before-and-after-transfor-1772539353929-5b477765.png",              imageAlt: "Professional hair styling techniques",              authorName: "Sophia Martinez",              authorAvatar: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-talented-ex-1772539352872-9b95b827.png",              date: "1 week ago"},
+              title: "Volume & Texture Tips",              excerpt: "Sophia shares her favorite techniques for creating bounce and movement in any hair type. Includes product recommendations.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-before-and-after-transfor-1772539353929-5b477765.png?_wi=2",              imageAlt: "Professional hair styling techniques",              authorName: "Sophia Martinez",              authorAvatar: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-talented-ex-1772539352872-9b95b827.png",              date: "1 week ago"},
             {
               id: "5",              category: ["Men's Cuts", "Trends"],
-              title: "2024 Haircut Trends",              excerpt: "Marcus breaks down the hottest haircut trends for 2024. From classic to cutting-edge, find your next look.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-vertical-video-thumbnail-for-a-barber--1772539354410-a19dbc62.png",              imageAlt: "Latest men's haircut trends",              authorName: "Marcus Johnson",              authorAvatar: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-confident-s-1772539353003-d526f3c7.png",              date: "2 weeks ago"},
+              title: "2024 Haircut Trends",              excerpt: "Marcus breaks down the hottest haircut trends for 2024. From classic to cutting-edge, find your next look.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-vertical-video-thumbnail-for-a-barber--1772539354410-a19dbc62.png?_wi=3",              imageAlt: "Latest men's haircut trends",              authorName: "Marcus Johnson",              authorAvatar: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-confident-s-1772539353003-d526f3c7.png",              date: "2 weeks ago"},
             {
               id: "6",              category: ["Women's Hair", "Styling"],
-              title: "Quick Blow-Dry Tutorial",              excerpt: "Get salon-quality hair at home. Aisha demonstrates her essential blow-dry techniques for any hair texture.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-before-and-after-transfor-1772539353929-5b477765.png",              imageAlt: "Professional blow-dry styling",              authorName: "Aisha Williams",              authorAvatar: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-talented-ex-1772539352872-9b95b827.png",              date: "2 weeks ago"},
+              title: "Quick Blow-Dry Tutorial",              excerpt: "Get salon-quality hair at home. Aisha demonstrates her essential blow-dry techniques for any hair texture.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-before-and-after-transfor-1772539353929-5b477765.png?_wi=3",              imageAlt: "Professional blow-dry styling",              authorName: "Aisha Williams",              authorAvatar: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-talented-ex-1772539352872-9b95b827.png",              date: "2 weeks ago"},
           ]}
           animationType="slide-up"
           textboxLayout="default"
@@ -194,17 +194,17 @@ export default function HomePage() {
           tagIcon={ShoppingBag}
           products={[
             {
-              id: "1",              name: "Premium Hair Gel",              price: "$24.99",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-premium-hair-care-product-bottle-on-a--1772539352531-042da815.png",              imageAlt: "Premium Hair Gel"},
+              id: "1",              name: "Premium Hair Gel",              price: "$24.99",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-premium-hair-care-product-bottle-on-a--1772539352531-042da815.png?_wi=1",              imageAlt: "Premium Hair Gel"},
             {
-              id: "2",              name: "Deep Conditioning Mask",              price: "$32.99",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-premium-hair-care-product-bottle-on-a--1772539352531-042da815.png",              imageAlt: "Deep Conditioning Mask"},
+              id: "2",              name: "Deep Conditioning Mask",              price: "$32.99",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-premium-hair-care-product-bottle-on-a--1772539352531-042da815.png?_wi=2",              imageAlt: "Deep Conditioning Mask"},
             {
-              id: "3",              name: "Volumizing Shampoo",              price: "$18.99",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-premium-hair-care-product-bottle-on-a--1772539352531-042da815.png",              imageAlt: "Volumizing Shampoo"},
+              id: "3",              name: "Volumizing Shampoo",              price: "$18.99",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-premium-hair-care-product-bottle-on-a--1772539352531-042da815.png?_wi=3",              imageAlt: "Volumizing Shampoo"},
             {
-              id: "4",              name: "Argan Oil Treatment",              price: "$28.99",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-premium-hair-care-product-bottle-on-a--1772539352531-042da815.png",              imageAlt: "Argan Oil Treatment"},
+              id: "4",              name: "Argan Oil Treatment",              price: "$28.99",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-premium-hair-care-product-bottle-on-a--1772539352531-042da815.png?_wi=4",              imageAlt: "Argan Oil Treatment"},
             {
-              id: "5",              name: "Anti-Frizz Serum",              price: "$22.99",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-premium-hair-care-product-bottle-on-a--1772539352531-042da815.png",              imageAlt: "Anti-Frizz Serum"},
+              id: "5",              name: "Anti-Frizz Serum",              price: "$22.99",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-premium-hair-care-product-bottle-on-a--1772539352531-042da815.png?_wi=5",              imageAlt: "Anti-Frizz Serum"},
             {
-              id: "6",              name: "Styling Pomade",              price: "$19.99",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-premium-hair-care-product-bottle-on-a--1772539352531-042da815.png",              imageAlt: "Styling Pomade"},
+              id: "6",              name: "Styling Pomade",              price: "$19.99",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-premium-hair-care-product-bottle-on-a--1772539352531-042da815.png?_wi=6",              imageAlt: "Styling Pomade"},
           ]}
           animationType="slide-up"
           gridVariant="three-columns-all-equal-width"
@@ -224,10 +224,10 @@ export default function HomePage() {
           testimonials={[
             {
               id: "1",              name: "David Martinez",              handle: "@davidm",              testimonial: "The virtual try-on feature is a game-changer! I finally found a barber who could give me exactly the look I wanted. StyleAI made it so easy.",              rating: 5,
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-confident-m-1772539351850-aa6edba6.png",              imageAlt: "David Martinez testimonial"},
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-confident-m-1772539351850-aa6edba6.png?_wi=1",              imageAlt: "David Martinez testimonial"},
             {
               id: "2",              name: "Emma Thompson",              handle: "@emmathompson",              testimonial: "I was nervous about trying something new with my hair. The AI preview gave me confidence, and the stylist nailed it. Love the results!",              rating: 5,
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-confident-f-1772539352374-70aaaa1e.png",              imageAlt: "Emma Thompson testimonial"},
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-confident-f-1772539352374-70aaaa1e.png?_wi=1",              imageAlt: "Emma Thompson testimonial"},
             {
               id: "3",              name: "James Wilson",              handle: "@jameswilson",              testimonial: "Best booking experience ever. I could see the exact stylist, their work, and instant availability. No more phone calls or confusion.",              rating: 5,
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-confident-m-1772539352151-affbeb52.png",              imageAlt: "James Wilson testimonial"},
@@ -236,10 +236,10 @@ export default function HomePage() {
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-confident-f-1772539352052-c618722d.png",              imageAlt: "Sarah Kim testimonial"},
             {
               id: "5",              name: "Michael Brown",              handle: "@michaelbrown",              testimonial: "Finally a platform that understands what I want. No surprises, no miscommunications. My barber and I are now regulars thanks to StyleAI.",              rating: 5,
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-confident-m-1772539351850-aa6edba6.png",              imageAlt: "Michael Brown testimonial"},
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-confident-m-1772539351850-aa6edba6.png?_wi=2",              imageAlt: "Michael Brown testimonial"},
             {
               id: "6",              name: "Jessica Lopez",              handle: "@jesslopez",              testimonial: "The product recommendations after my haircut were so helpful. I bought the suggested products and my hair looks amazing weeks later.",              rating: 5,
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-confident-f-1772539352374-70aaaa1e.png",              imageAlt: "Jessica Lopez testimonial"},
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-confident-f-1772539352374-70aaaa1e.png?_wi=2",              imageAlt: "Jessica Lopez testimonial"},
           ]}
           showRating={true}
           animationType="slide-up"

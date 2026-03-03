@@ -55,7 +55,7 @@ export default function AppointmentPage() {
           title="Get Your StyleAI Access"
           description="Join thousands who've discovered their perfect style. Get early access to new stylists, exclusive booking discounts, and AI styling tips delivered to your inbox."
           tagIcon={Mail}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-vibrant-modern-barber-shop-interior-wi-1772539353772-b879aa25.png"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-vibrant-modern-barber-shop-interior-wi-1772539353772-b879aa25.png?_wi=2"
           mediaPosition="right"
           mediaAnimation="slide-up"
           useInvertedBackground={true}
