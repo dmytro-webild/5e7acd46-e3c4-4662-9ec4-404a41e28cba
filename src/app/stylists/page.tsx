@@ -47,37 +47,18 @@ export default function StylistsPage() {
           tagIcon={MapPin}
           team={[
             {
-              id: "1",
-              name: "Marcus Johnson",
-              role: "Master Barber",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-confident-s-1772539353003-d526f3c7.png?_wi=5",
-              imageAlt: "Marcus Johnson - Master Barber",
-            },
+              id: "1",              name: "Marcus Johnson",              role: "Master Barber",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-confident-s-1772539353003-d526f3c7.png",              imageAlt: "Marcus Johnson - Master Barber"},
             {
-              id: "2",
-              name: "Aisha Williams",
-              role: "Senior Stylist",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-talented-ex-1772539352872-9b95b827.png?_wi=5",
-              imageAlt: "Aisha Williams - Senior Stylist",
-            },
+              id: "2",              name: "Aisha Williams",              role: "Senior Stylist",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-talented-ex-1772539352872-9b95b827.png",              imageAlt: "Aisha Williams - Senior Stylist"},
             {
-              id: "3",
-              name: "James Chen",
-              role: "Precision Barber",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-confident-s-1772539353003-d526f3c7.png?_wi=6",
-              imageAlt: "James Chen - Precision Barber",
-            },
+              id: "3",              name: "James Chen",              role: "Precision Barber",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-confident-s-1772539353003-d526f3c7.png",              imageAlt: "James Chen - Precision Barber"},
             {
-              id: "4",
-              name: "Sophia Martinez",
-              role: "Color Specialist",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-talented-ex-1772539352872-9b95b827.png?_wi=6",
-              imageAlt: "Sophia Martinez - Color Specialist",
-            },
+              id: "4",              name: "Sophia Martinez",              role: "Color Specialist",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-talented-ex-1772539352872-9b95b827.png",              imageAlt: "Sophia Martinez - Color Specialist"},
           ]}
           animationType="slide-up"
           textboxLayout="default"
           useInvertedBackground={true}
+          tagAnimation="slide-up"
         />
       </div>
 
@@ -90,13 +71,8 @@ export default function StylistsPage() {
           tagIcon={Zap}
           features={[
             {
-              id: "1",
-              title: "Verified & Vetted",
-              description: "Every stylist undergoes identity verification, background checks, and portfolio review. We maintain the highest standards of professionalism.",
-              media: {
-                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-confident-s-1772539353003-d526f3c7.png?_wi=7",
-                imageAlt: "Verified stylist professional",
-              },
+              id: "1",              title: "Verified & Vetted",              description: "Every stylist undergoes identity verification, background checks, and portfolio review. We maintain the highest standards of professionalism.",              media: {
+                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-confident-s-1772539353003-d526f3c7.png",                imageAlt: "Verified stylist professional"},
               items: [
                 { icon: Check, text: "Background checked" },
                 { icon: Check, text: "Portfolio verified" },
@@ -105,13 +81,8 @@ export default function StylistsPage() {
               reverse: false,
             },
             {
-              id: "2",
-              title: "Real Client Reviews",
-              description: "Ratings are from verified customers only. No fake reviews, just honest feedback from people who've experienced their work.",
-              media: {
-                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-talented-ex-1772539352872-9b95b827.png?_wi=7",
-                imageAlt: "Customer testimonials",
-              },
+              id: "2",              title: "Real Client Reviews",              description: "Ratings are from verified customers only. No fake reviews, just honest feedback from people who've experienced their work.",              media: {
+                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-talented-ex-1772539352872-9b95b827.png",                imageAlt: "Customer testimonials"},
               items: [
                 { icon: Check, text: "Verified reviews only" },
                 { icon: Check, text: "Detailed feedback" },
@@ -120,13 +91,8 @@ export default function StylistsPage() {
               reverse: true,
             },
             {
-              id: "3",
-              title: "Instant Booking & Communication",
-              description: "See real-time availability, confirm appointments instantly, and communicate directly with your stylist before your appointment.",
-              media: {
-                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-modern-appointment-booking-calendar-in-1772539354163-6fa220b1.png?_wi=2",
-                imageAlt: "Appointment booking system",
-              },
+              id: "3",              title: "Instant Booking & Communication",              description: "See real-time availability, confirm appointments instantly, and communicate directly with your stylist before your appointment.",              media: {
+                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-modern-appointment-booking-calendar-in-1772539354163-6fa220b1.png",                imageAlt: "Appointment booking system"},
               items: [
                 { icon: Check, text: "Live availability" },
                 { icon: Check, text: "Instant confirmation" },
@@ -138,6 +104,7 @@ export default function StylistsPage() {
           animationType="slide-up"
           textboxLayout="default"
           useInvertedBackground={false}
+          tagAnimation="slide-up"
         />
       </div>
 
@@ -150,37 +117,20 @@ export default function StylistsPage() {
           tagIcon={MessageCircle}
           testimonials={[
             {
-              id: "1",
-              name: "Marcus Johnson",
-              handle: "@marcusbarber",
-              testimonial: "StyleAI has transformed my business. I've grown my client base significantly and the platform handles all the logistics. I just focus on delivering great cuts.",
-              rating: 5,
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-confident-s-1772539353003-d526f3c7.png?_wi=8",
-              imageAlt: "Marcus Johnson",
-            },
+              id: "1",              name: "Marcus Johnson",              handle: "@marcusbarber",              testimonial: "StyleAI has transformed my business. I've grown my client base significantly and the platform handles all the logistics. I just focus on delivering great cuts.",              rating: 5,
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-confident-s-1772539353003-d526f3c7.png",              imageAlt: "Marcus Johnson"},
             {
-              id: "2",
-              name: "Aisha Williams",
-              handle: "@aishastylist",
-              testimonial: "The verification process gave me credibility, and verified client reviews build trust. My booking rate has doubled since joining StyleAI.",
-              rating: 5,
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-talented-ex-1772539352872-9b95b827.png?_wi=8",
-              imageAlt: "Aisha Williams",
-            },
+              id: "2",              name: "Aisha Williams",              handle: "@aishastylist",              testimonial: "The verification process gave me credibility, and verified client reviews build trust. My booking rate has doubled since joining StyleAI.",              rating: 5,
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-talented-ex-1772539352872-9b95b827.png",              imageAlt: "Aisha Williams"},
             {
-              id: "3",
-              name: "James Chen",
-              handle: "@jamesprecision",
-              testimonial: "StyleAI's communication tools make consultations so much easier. Clients know exactly what they're getting, and I've had zero dissatisfied customers.",
-              rating: 5,
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-confident-s-1772539353003-d526f3c7.png?_wi=9",
-              imageAlt: "James Chen",
-            },
+              id: "3",              name: "James Chen",              handle: "@jamesprecision",              testimonial: "StyleAI's communication tools make consultations so much easier. Clients know exactly what they're getting, and I've had zero dissatisfied customers.",              rating: 5,
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQlunMn77AA2pwuzNsZ1UEn6IT/a-professional-headshot-of-a-confident-s-1772539353003-d526f3c7.png",              imageAlt: "James Chen"},
           ]}
           showRating={true}
           animationType="slide-up"
           textboxLayout="default"
           useInvertedBackground={true}
+          tagAnimation="slide-up"
         />
       </div>
 
